@@ -1,12 +1,12 @@
 var CACHE_NAME = 'login-cache-v1';
 var urlsToCache = [
     '/',
-    '/Php/index.php',
-    '/Php/Assents/Js/login.js',
-     '/Php/home.php',
-     '/Php/login.php',
-     '/Php/logout.php',
-     '/Php/db_connect.php'
+    '/php/index.php',
+    '/php/assets/js/login.js',
+     '/php/home.php',
+     '/php/login.php',
+     '/php/logout.php',
+     '/php/db_connect.php'
 ];
 
 self.addEventListener('install', function(event) {
@@ -22,7 +22,7 @@ self.addEventListener('install', function(event) {
 
 self.addEventListener('activate', function(event) {
 
-    var cacheWhitelist = ['pages-cache-v1', 'blog-posts-cache-v1'];
+    var cacheWhitelist = ['login-cache-v1'];
 
     event.waitUntil(
         caches.keys().then(function(cacheNames) {
