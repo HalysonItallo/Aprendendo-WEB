@@ -1,0 +1,152 @@
+#main {
+    background-color: #836FFF;
+}
+#image {
+    position:relative;
+    top:57px;
+    margin-left:215px;
+    width: 20px;
+    height: 20px;
+    object-fit: scale-down;
+}
+#login_form {
+    background-color: #FA8072;
+    margin-top: 100px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    margin-left: -120px;
+    width: 350px;
+    height: 300px;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
+}
+#login_form h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-shadow: 0 1px white;
+    font-family: 'Crimson Text', serif;
+}
+#login_form input {
+    border: 1.5px solid #708090;
+    border-radius: 4px;
+    width: 70%;
+
+}
+#form {
+    margin-left: 40px;
+    color: #FFFFFF;
+}
+#senha {
+    position: relative;
+    margin-top: 1px;
+}
+.button {
+    position: relative;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #FF6347;
+    text-align: center;
+    height: 30px;
+    text-align: center;
+    width: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-left: 60%;
+}
+
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#main_home {
+    background-color: #836FFF;
+}
+#h1_home {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 0px;
+}
+#div_home {
+    background-color: #FFFFFF;
+    position: absolute;
+    height: 50px;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: #FF6347;
+    border: 1px solid gray;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 10px;
+}
+#logout {
+    position: relative;
+    margin-right: 0;
+    margin-left: 95%;
+    background-color: #FFFFFF;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    color: #FF6347;
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+
+#logout span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#logout span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#logout:hover span {
+    padding-right: 25px;
+}
+
+#logout:hover span:after {
+    opacity: 1;
+    right: 0;
+}
