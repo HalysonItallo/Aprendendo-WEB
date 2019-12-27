@@ -7,7 +7,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/",
-  "start_url": "Php/Index.php",
+  "start_url": "/php/index.php",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
